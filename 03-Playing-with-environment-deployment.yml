@@ -27,7 +27,7 @@ stages:
         - bash: echo "eacho deployed to Dev"
 - stage: QADeploy
   jobs:  
-  - deployment: DevDeployJob  
+  - deployment: QADeployJob  
     environment: QA
     strategy: 
      runOnce:
