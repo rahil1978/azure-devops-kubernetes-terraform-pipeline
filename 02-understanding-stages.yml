@@ -9,7 +9,7 @@ stages:
     jobs: 
     - job: FirstJob
       steps:    
-      - bash: echo Build FirstJob
+      - bash: echo Build FirstJob in 2nd pipeline
       - bash: echo $(Build.BuildNumber)       
       - bash: echo $(Build.BuildId)     
       - bash: echo $(Build.SourceBranchName)    
